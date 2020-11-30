@@ -17,9 +17,9 @@ class CreateRegistrosTable extends Migration
             $table->increments('id');
             $table->string('nombre');
             $table->string('apellidos');
-            $table->int('edad');
+            $table->integer('edad');
             $table->string('genero');
-            $table->int('telefono');
+            $table->integer('telefono');
             $table->string('correo');
             $table->string('contraseña');
             $table->timestamps();
